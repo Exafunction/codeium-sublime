@@ -6,8 +6,8 @@
 			"releases": [
 				{
 					"sublime_text": "*",
-				    "version": "1.2.26",
-					"url": ""
+					"version": "1.2.26",
+					"url": "https://github.com/Exafunction/codeium-sublime/raw/main/Codeium.sublime-package"
 				}
 			]
 		}
