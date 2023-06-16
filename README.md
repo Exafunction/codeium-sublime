@@ -7,7 +7,7 @@ Codeium autocompletes your code with AI in all major IDEs. We launched this impl
 
 ## 🚀 Getting started
 
-1. Install the Codeium package
+1. Add the `Codeium.sublime-package` file to your `Packages` directory.
 
 2. Run the command `Codeium: Sign In` and follow the instructions
 
