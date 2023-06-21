@@ -1,15 +1,20 @@
 {
-	"schema_version": "3.0.0",
-	"packages": [
-		{
-			"name": "Codeium",
-			"releases": [
-				{
-					"sublime_text": "*",
-					"version": "1.2.26",
-					"url": "https://github.com/Exafunction/codeium-sublime/raw/main/Codeium.sublime-package"
-				}
-			]
-		}
-	]
+  "schema_version": "3.0.0",
+  "packages": [
+    {
+      "name": "Codeium",
+      "releases": [
+        {
+          "sublime_text": "*",
+          "version": "1.2.26",
+          "url": "https://github.com/Exafunction/codeium-sublime/raw/main/Codeium.sublime-package"
+        },
+        {
+          "version": "1.2.38",
+          "sublime_text": "*",
+          "url": "https://github.com/Exafunction/codeium-sublime/raw/main/Codeium.sublime-package"
+        }
+      ]
+    }
+  ]
 }
