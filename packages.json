@@ -3,14 +3,26 @@
   "packages": [
     {
       "name": "Codeium",
+      "author": "Codeium",
+      "labels": [
+        "auto-complete",
+        "completions",
+        "autocomplete",
+        "completion",
+        "autocompletion"
+      ],
+      "homepage": "https://codeium.com",
+      "readme": "https://github.com/Exafunction/codeium-sublime/blob/main/README.md",
+      "issues": "https://github.com/Exafunction/codeium-sublime/issues",
+      "description": "Codeium is the modern coding superpower—a free AI-powered code completion tool with support for over 70 languages.",
       "releases": [
         {
+          "version": "1.2.38",
           "sublime_text": "*",
-          "version": "1.2.26",
           "url": "https://github.com/Exafunction/codeium-sublime/raw/main/Codeium.sublime-package"
         },
         {
-          "version": "1.2.38",
+          "version": "1.2.26",
           "sublime_text": "*",
           "url": "https://github.com/Exafunction/codeium-sublime/raw/main/Codeium.sublime-package"
         }
