@@ -14,6 +14,11 @@
       "details": "https://github.com/Exafunction/codeium-sublime",
       "releases": [
         {
+          "version": "1.2.46",
+          "sublime_text": "*",
+          "url": "https://github.com/Exafunction/codeium-sublime/raw/1.2.46/Codeium.sublime-package"
+        },
+        {
           "version": "1.2.42",
           "sublime_text": "*",
           "url": "https://github.com/Exafunction/codeium-sublime/raw/1.2.42/Codeium.sublime-package"
