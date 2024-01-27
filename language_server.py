@@ -22,7 +22,6 @@ import Codeium.requests as requests
 
 codeium_dir = os.path.join(xdg_data_home(), "codeium/sublime")
 
-
 def plugin_loaded() -> None:
     os.makedirs(codeium_dir, exist_ok=True)
     t = Thread(target=LanguageServerRunner.setup)
@@ -81,12 +80,15 @@ class LanguageServerRunner:
         cls.cleanup()
         cls.td = tempfile.TemporaryDirectory()
         manager_dir = cls.td.name
+        database_dir = os.path.join(codeium_dir, '..', 'database', 'default')
         args = [
             cls.file,
             "--api_server_url",
             API_SERVER_URL,
             "--manager_dir",
             manager_dir,
+            "--database_dir",
+            database_dir,
         ]
         with open(os.path.join(codeium_dir, "stdout.txt"), "wb") as out, open(
             os.path.join(codeium_dir, "stderr.txt"), "wb"
