@@ -1,0 +1,43 @@
+[
+	{
+		"keys" : ["alt+]"], // should be alt+] or [
+		"command": "codeium_display_completion",
+		"context": [
+			{
+				"key" : "setting.Codeium.completion_active",
+				"operator": "equal", "operand": true
+			}
+		]
+
+	},
+	{
+		"keys" : ["alt+["], // should be alt+] or [
+		"command": "codeium_display_previous_completion",
+		"context": [
+			{
+				"key" : "setting.Codeium.completion_active",
+				"operator": "equal", "operand": true
+			}
+		]
+	},
+	{
+		"keys" : ["escape"], // escape
+		"command": "codeium_reject_completion",
+		"context": [
+			{
+				"key" : "setting.Codeium.completion_active",
+				"operator": "equal", "operand": true
+			}
+		]
+	},
+	{
+		"keys" : ["tab"], // tab
+		"command": "codeium_accept_completion",
+		"context": [
+			{
+				"key" : "setting.Codeium.completion_active",
+				"operator": "equal", "operand": true
+			}
+		]
+	},
+]

@@ -1,0 +1,16 @@
+[
+    {
+        "caption": "Codeium: Sign In",
+        "command": "codeium_sign_in"
+    },{
+        "caption": "Codeium: Provide Auth Token",
+        "command": "codeium_provide_auth_token"
+    },{
+        "caption": "Codeium: Disable Plugin",
+        "command": "codeium_disable_plugin"
+    },
+    {
+        "caption": "Codeium: Enable Plugin",
+        "command": "codeium_enable_plugin"
+    },
+]
