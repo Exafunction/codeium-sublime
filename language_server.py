@@ -15,7 +15,7 @@ import sublime
 import sublime_plugin
 
 API_SERVER_URL = "https://server.codeium.com"
-LANGUAGE_SERVER_VERSION = "1.6.20"
+LANGUAGE_SERVER_VERSION = "1.6.27"
 LANGUAGE_SERVER_PATH = "exa.language_server_pb.LanguageServerService"
 
 import Codeium.requests as requests
