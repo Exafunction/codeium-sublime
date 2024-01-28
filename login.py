@@ -9,7 +9,9 @@ import Codeium.requests as requests
 import sublime
 import sublime_plugin
 
-codeium_dir = os.path.join(os.path.expanduser("~"), ".codeium/sublime")
+from .xdg_base_dirs import xdg_data_home
+
+codeium_dir = os.path.join(xdg_data_home(), "codeium/sublime")
 
 API_KEY_FILE = os.path.join(codeium_dir, "codeium-api-key.txt")
 
