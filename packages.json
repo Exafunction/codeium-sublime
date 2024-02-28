@@ -1,0 +1,49 @@
+{
+  "schema_version": "3.0.0",
+  "packages": [
+    {
+      "name": "Codeium",
+      "author": "Codeium",
+      "labels": [
+        "auto-complete",
+        "completions",
+        "autocomplete",
+        "completion",
+        "autocompletion"
+      ],
+      "details": "https://github.com/Exafunction/codeium-sublime",
+      "releases": [
+        {
+          "version": "1.2.54",
+          "sublime_text": "*",
+          "url": "https://github.com/Exafunction/codeium-sublime/raw/1.2.54/Codeium.sublime-package",
+          "date": "2023-07-21 19:15:37"
+        },
+        {
+          "version": "1.2.46",
+          "sublime_text": "*",
+          "url": "https://github.com/Exafunction/codeium-sublime/raw/1.2.46/Codeium.sublime-package",
+          "date": "2023-07-20 12:00:00"
+        },
+        {
+          "version": "1.2.42",
+          "sublime_text": "*",
+          "url": "https://github.com/Exafunction/codeium-sublime/raw/1.2.42/Codeium.sublime-package",
+          "date": "2023-07-19 12:00:00"
+        },
+        {
+          "version": "1.2.38",
+          "sublime_text": "*",
+          "url": "https://github.com/Exafunction/codeium-sublime/raw/1.2.38/Codeium.sublime-package",
+          "date": "2023-07-18 12:00:00"
+        },
+        {
+          "version": "1.2.26",
+          "sublime_text": "*",
+          "url": "https://github.com/Exafunction/codeium-sublime/raw/1.2.26/Codeium.sublime-package",
+          "date": "2023-07-17 12:00:00"
+        }
+      ]
+    }
+  ]
+}
